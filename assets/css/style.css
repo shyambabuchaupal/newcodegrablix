@@ -1,11 +1,3 @@
-/**
-* Template Name: Siimple
-* Template URL: https://bootstrapmade.com/free-bootstrap-landing-page/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -70,7 +62,7 @@ h6,
     font-size: 28px;
     padding: 8px 0;
   }
- 
+
 }
 
 /*--------------------------------------------------------------
@@ -158,7 +150,7 @@ h6,
   cursor: pointer;
   text-align: right;
   padding: 10px 12px;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .nav-toggle i {
@@ -499,7 +491,8 @@ nav {
   background-position: center;
 
 }
-.hhghg h2{
+
+.hhghg h2 {
   font-weight: 500;
   font-size: 2.5vw;
   line-height: 2vw;
@@ -511,21 +504,18 @@ nav {
 
 
 /* new client css  */
-.hyyhhyh h5{
+.hyyhhyh h5 {
   font-weight: 600;
-    font-size: 70px;
-    line-height: 100.16px;
-    letter-spacing: 4%;
-    font-family: "Sora";
-}
-.videoHeading {
+  font-size: 70px;
+  line-height: 100.16px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   font-family: "Sora";
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 63.29px;
-  text-align: center;
 }
-.clinentHeadong h2 {
+
+
+
+.section-title .clinentHeadong {
   font-weight: 600;
   font-size: 70px;
   line-height: 20.57px;
@@ -533,19 +523,25 @@ nav {
   color: #FF843F;
   font-family: "Sora";
   text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
-.page2{
+
+.page2 {
   width: 100%;
   padding: 0vw 0;
 }
-.moving{
+
+.moving {
   white-space: nowrap;
   overflow-x: auto;
 }
-.moving::-webkit-scrollbar{
+
+.moving::-webkit-scrollbar {
   display: none;
 }
-.con{
+
+.con {
   white-space: nowrap;
   display: inline-block;
   animation-name: move;
@@ -553,26 +549,30 @@ nav {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 .moving h2 {
   font-size: 9vw;
   display: inline-block;
   color: black;
   font-weight: 700;
 }
-.gola{
-  width: 50px ;
-  height: 50px ;
+
+.gola {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #FF843F;
   display: inline-block;
   margin: 1vw 3vw;
 }
-@keyframes move{
-  from{
-      transform: translateX(0);
+
+@keyframes move {
+  from {
+    transform: translateX(0);
   }
-  to{
-      transform: translateX(-100%);
+
+  to {
+    transform: translateX(-100%);
   }
 }
 
@@ -713,6 +713,42 @@ nav {
   background: #fd8841;
 }
 
+.mobileServics h2 {
+  font-weight: 400;
+  font-size: 25.45px;
+  line-height: 37.88px;
+  color: #000000;
+  font-family: "Sora";
+}
+
+.mobileServics p {
+  font-weight: 400;
+  font-size: 15.46px;
+  line-height: 29.9px;
+  color: #939393;
+  font-family: "Poppins";
+}
+.aboutText p:nth-child(1) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #939393;
+  font-family: "Poppins";
+}
+.aboutText p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #939393;
+  font-family: "Poppins";
+}
+.aboutText p:nth-child(3) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #939393;
+  font-family: "Poppins";
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -724,37 +760,77 @@ nav {
     font-size: 28px;
     line-height: 36px;
   }
+
+  .hyyhhyh h5 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 49.16px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: "Sora";
+  }
+
+  .section-title .videoHeading {
+    font-family: "Sora";
+    font-size: 29px !important;
+    font-weight: 600;
+    line-height: 38.29px !important;
+    text-align: center;
+    margin-bottom: -12px !important;
+    padding-bottom: 15px;
+    position: relative;
+  }
+
+  .hhghg h2 {
+    font-weight: 500;
+    font-size: 9.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.92px;
+    color: #FF843F;
+    font-family: "Poppins";
+    padding: 12vw 0vw 11vw 0vw;
+  }
+
   .gola {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background-color: #FF843F;
     display: inline-block;
     margin: 0vw 3vw;
-}
+  }
+  .mobs{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
   .heroText {
     top: 33%;
     left: 17%;
-}
-.messgaebtn {
-  margin-top: 28px;
-  border: 1px solid #FF843F;
-  width: 55% !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 14px;
-  padding: 5px 0 !important;
-}
-.heroImg {
-  margin-top: -112px;
-}
-.heroText h3 {
-  font-weight: 400;
-  font-size: 12vw;
-  line-height: 15vw;
-  font-family: "Syne";
-}
+  }
+
+  .messgaebtn {
+    margin-top: 28px;
+    border: 1px solid #FF843F;
+    width: 55% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 5px 0 !important;
+  }
+
+  .heroImg {
+    margin-top: -60px;
+  }
+
+  .heroText h3 {
+    font-weight: 400;
+    font-size: 12vw;
+    line-height: 15vw;
+    font-family: "Syne";
+  }
 
   #hero h2 {
     font-size: 18px;
@@ -770,12 +846,24 @@ nav {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.section-contact{
+  border-top: 1px solid #ff843f;
+  border-bottom: 1px solid #ff843f;
+}
+
+.section-contact h2 {
+  font-weight: 700;
+  font-size: 43.45px;
+  line-height: 103.88px;
+  color: #000000;
+  font-family: "Sora";
+}
 section {
   padding: 8px 0;
 }
 
 .section-bg {
-  background-color: #fff7f2;
+  background-color: #fff;
 }
 
 .section-title {
@@ -783,15 +871,18 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+.section-title .videoHeading {
+  font-family: "Sora";
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 600;
+  line-height: 63.29px;
+  text-align: center;
   margin-bottom: 20px;
   padding-bottom: 15px;
   position: relative;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
@@ -800,7 +891,7 @@ section {
   background: #fd680e;
   bottom: 0;
   left: calc(50% - 40px);
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
@@ -821,13 +912,15 @@ section {
   color: #FF843F;
   font-family: "Poppins";
 }
-.skillHeading p{
+
+.skillHeading p {
   font-weight: 400;
   font-size: 16.97px;
   line-height: 28.76px;
   letter-spacing: 0.13px;
   font-family: "Poppins";
 }
+
 .messgaebtn {
   margin-top: 28px;
   border: 1px solid #FF843F;
@@ -838,7 +931,8 @@ section {
   border-radius: 14px;
   padding: 3px 0;
 }
-.messgaebtn a{
+
+.messgaebtn a {
   font-weight: 400;
   font-size: 15.53px;
   line-height: 21.84px;
@@ -869,6 +963,7 @@ section {
 .about p:last-child {
   margin-bottom: 0;
 }
+
 .accordion-container {
   width: 100%;
 
@@ -934,14 +1029,6 @@ section {
 
 }
 
-.videoHeading {
-  font-family: "Sora";
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 63.29px;
-  text-align: center;
-}
-
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -950,8 +1037,8 @@ section {
 }
 
 .why-us .card {
-  border-radius: 3px;
-  border: 0;
+  border-radius: 27px;
+  border: 2px solid #CAB7FF;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
 }
@@ -994,7 +1081,55 @@ section {
 }
 
 .why-us .card-text {
-  color: #5e5e5e;
+  font-size: 14.22px;
+  line-height: 23.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
+
+}
+
+.why-us .card-text1 {
+  font-size: 15.89px;
+  line-height: 23.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
+
+}
+
+.why-us .card-text2 {
+  font-size: 18.99px;
+  line-height: 22.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
+
+}
+
+.why-us .card-text3 {
+  font-size: 19.75px;
+  line-height: 24.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
+
+}
+
+.heiCard {
+  height: 300.49px;
+}
+
+.heiCard1 {
+  height: 345.62px;
+}
+
+.heiCard2 {
+  height: 380.48px;
+}
+
+.heiCard3 {
+  height: 415.06px;
 }
 
 .why-us .card:hover .card-icon i {
@@ -1197,10 +1332,29 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #2f1708;
+  background: #ffff;
   padding: 30px 0;
-  color: #fff;
+  color: #000;
   font-size: 14px;
+  position: relative;
+
+}
+
+.footerHead p {
+  text-align: center;
+  font-size: 2vw;
+  font-family: "League Spartan";
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+
+.footerHead h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "League Spartan";
+  font-size: 5vw;
+  font-weight: 500;
+  margin-bottom: 65px;
 }
 
 #footer .copyright {
@@ -1208,8 +1362,62 @@ section {
 }
 
 #footer .credits {
-  padding-top: 10px;
+  position: absolute;
+  top: 40%;
+  right: 3%;
+
+}
+
+#footer .credits .social-links a {
+  font-size: 24px;
+}
+
+.footer_circle {
+  height: 100px !important;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #fd680e;
+  display: flex;
+  justify-content: center;
+  color: #000;
   text-align: center;
-  font-size: 13px;
-  color: #fff;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 65px;
+}
+
+
+
+/* swiper js css  */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
 }
