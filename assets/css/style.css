@@ -760,6 +760,23 @@ nav {
     font-size: 28px;
     line-height: 36px;
   }
+  #loader h1{
+    font-size: 10vw !important;
+  }
+  .faqgola {
+    width: 44vw !important;
+    height: 44vw;
+    position: absolute;
+    background: linear-gradient(153.51deg, #FF5C00 14.34%, #FFE070 83.37%);
+    border-radius: 50%;
+    top: 89% !important;
+    left: -4%;
+    filter: blur(20px);
+    animation-name: golaAnimat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
   .hyyhhyh h5 {
     font-weight: 600;
@@ -1193,7 +1210,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #fd680e;
+  color: #111010;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1420,4 +1437,78 @@ section {
 
 .swiper-slide:nth-child(3n) {
   width: 40%;
+}
+.faq_maindiv{
+  position: relative;
+  z-index: 9;
+}
+.faqgola {
+  width: 36vw;
+  height: 44vw;
+  position: absolute;
+  background: linear-gradient(153.51deg, #FF5C00 14.34%, #FFE070 83.37%);
+  border-radius: 50%;
+  top: 14%;
+  left: -4%;
+  filter: blur(20px);
+  animation-name: golaAnimat;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes golaAnimat{
+  from{
+    transform: translateX(10%);
+  }
+  to{
+    transform: translateY(-10%);
+  }
+}
+
+#loader{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  transition: all ease 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loader h1{
+  font-weight: 700;
+  color: transparent;
+  font-size: 4vw;
+  background: linear-gradient(to right, orange, orangered);
+  -webkit-background-clip: text;
+  position: absolute;
+  opacity: 0;
+  animation-name: load;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  
+}
+#loader h1:nth-child(2){
+  animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+  animation-delay: 3s;
+}
+
+@keyframes load{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
 }

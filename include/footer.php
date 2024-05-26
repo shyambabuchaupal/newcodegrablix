@@ -41,6 +41,14 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
  </script>
+
+ <script>
+
+var loader = document.querySelector("#loader");
+setTimeout(function() {
+    loader.style.top = "-100%";
+}, 4200)
+ </script>
  </body>
 
  </html>
