@@ -51,11 +51,7 @@
 
 <body>
     <!-- loader  -->
- <div id='loader'>
-    <h1>MillionTrack</h1>
-    <h1>Bizmillion</h1>
-    <h1>RedoTechnology</h1>
- </div>
+ 
     <!-- ======= Header ======= -->
     <header id="header">
         <div class="container">

@@ -34,16 +34,32 @@
 // swipper js 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
-    spaceBetween: 2,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+    spaceBetween: 40,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1.25,
+            spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 30
+        }
     },
 });
  </script>
 
  <script>
-
 var loader = document.querySelector("#loader");
 setTimeout(function() {
     loader.style.top = "-100%";

@@ -323,91 +323,204 @@
     </section><!-- End Frequenty Asked Questions Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg">
+
+    <section>
         <div class="container-fluid">
-            <div class="section-title mt-5 mb-5">
-                <h2 class="clinentHeadong">Review</h2>
+            <div class="col-lg-12 mt-5">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text p-1">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="height: 355px;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text1 px-1 py-2">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text2 p-1">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text3 p-1">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text p-1">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="box-shadow: rgba(112, 85, 85, 0.16) 0px 1px 4px; border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text1 p-1">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="height: 355px;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text1 px-1 py-2">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text2 p-1">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card "
+                                style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; border: 2px solid #CAB7FF;border-radius: 27px;">
+                                <img src="assets/img/grablixR.png" class="" alt="...">
+                                <div class="cart-text3 p-1">
+                                    <p>
+                                        This company is truly exceptional. Their website development covers intricate
+                                        coding
+                                        and WordPress with finesse, and their Android and iOS apps are sleek and
+                                        user-friendly. Their digital marketing strategies have boosted our online
+                                        presence
+                                        and have elevated our business to new heights. Their dedication to deliver
+                                        results
+                                        is commendable. I highly recommend their services to anyone looking to boost
+                                        their
+                                        digital presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Swiper JS -->
             </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-3">
-                    <div class="card heiCard">
-
-                        <div class="card-icon">
-
-                            <img src="assets/img/grablixR.png" class="" alt="...">
-                        </div>
-                        <div class="card-body">
-
-                            <p class="card-text">
-                                This company is truly exceptional. Their website development covers intricate coding and
-                                WordPress with finesse, and their Android and iOS apps are sleek and user-friendly.
-                                Their digital marketing strategies have boosted our online presence and have elevated
-                                our business to new heights. Their dedication to deliver results is commendable. I
-                                highly recommend their services to anyone looking to boost their digital presence.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-3">
-                    <div class="card heiCard1">
-
-                        <div class="card-icon">
-
-                            <img src="assets/img/grablixR.png" class="" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text1">
-                                This company is truly exceptional. Their website development covers intricate coding and
-                                WordPress with finesse, and their Android and iOS apps are sleek and user-friendly.
-                                Their digital marketing strategies have boosted our online presence and have elevated
-                                our business to new heights. Their dedication to deliver results is commendable. I
-                                highly recommend their services to anyone looking to boost their digital presence.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-3">
-                    <div class="card heiCard2">
-
-                        <div class="card-icon">
-
-                            <img src="assets/img/grablixR.png" class="" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text2">
-                                This company is truly exceptional. Their website development covers intricate coding and
-                                WordPress with finesse, and their Android and iOS apps are sleek and user-friendly.
-                                Their digital marketing strategies have boosted our online presence and have elevated
-                                our business to new heights. Their dedication to deliver results is commendable. I
-                                highly recommend their services to anyone looking to boost their digital presence.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-3">
-                    <div class="card heiCard3">
-
-                        <div class="card-icon">
-
-                            <img src="assets/img/grablixR.png" class="" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text3">
-                                This company is truly exceptional. Their website development covers intricate coding and
-                                WordPress with finesse, and their Android and iOS apps are sleek and user-friendly.
-                                Their digital marketing strategies have boosted our online presence and have elevated
-                                our business to new heights. Their dedication to deliver results is commendable. I
-                                highly recommend their services to anyone looking to boost their digital presence.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </section><!-- End Why Us Section -->
+    </section>
 
+
+    <!-- End Why Us Section -->
 
 
 

@@ -764,14 +764,14 @@ nav {
     font-size: 10vw !important;
   }
   .faqgola {
-    width: 44vw !important;
-    height: 44vw;
+    width: 80vw !important;
+    height: 80vw !important;
     position: absolute;
     background: linear-gradient(153.51deg, #FF5C00 14.34%, #FFE070 83.37%);
     border-radius: 50%;
-    top: 89% !important;
+    top: 80% !important;
     left: -4%;
-    filter: blur(20px);
+    filter: blur(88px) !important;
     animation-name: golaAnimat;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -1402,46 +1402,6 @@ section {
   margin: auto;
   margin-bottom: 65px;
 }
-
-
-
-/* swiper js css  */
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.swiper-slide {
-  width: 80%;
-}
-
-.swiper-slide:nth-child(2n) {
-  width: 60%;
-}
-
-.swiper-slide:nth-child(3n) {
-  width: 40%;
-}
-.faq_maindiv{
-  position: relative;
-  z-index: 9;
-}
 .faqgola {
   width: 36vw;
   height: 44vw;
@@ -1511,4 +1471,58 @@ section {
   100%{
     opacity: 0;
   }
+}
+
+/* ======= swiper js ======== */
+.swiper {
+  width: 100%;
+  height: 60%;
+  border-radius: 27px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 22%;
+  height: 22%; */
+  object-fit: cover;
+  margin: auto;
+  padding: 1vw 0;
+}
+
+.cart-text p {
+  font-size: 14.22px;
+  line-height: 23.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
+}
+.cart-text1 p {
+  font-size: 17.22px;
+  line-height: 20.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
+}
+.cart-text2 p {
+  font-size: 18.22px;
+  line-height: 23.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
+}
+.cart-text3 p {
+  font-size: 19.22px;
+  line-height: 23.43px;
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: 400;
 }
